@@ -39,9 +39,8 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     }
 
     const opts = {
-        height: '390',
-        width: '640',
-        alignItems: 'center',
+        height: '500',
+        width: '100%',
         playerVars: {
             autoplay: 1,
         },
